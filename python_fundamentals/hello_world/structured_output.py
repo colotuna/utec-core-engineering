@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 pi_valor = 3.14159
 es_valido = 10 > 5
 
