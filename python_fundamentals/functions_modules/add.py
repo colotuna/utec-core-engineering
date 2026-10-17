@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import add_0
+import add from add_0
 
 a = 1
 b = 2
