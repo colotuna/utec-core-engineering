@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from calculator_1 import add, sub, multiply, divide
+from calculator_1 import add, sub, multiplication, division
 
 if __name__ == "__main__":
 
@@ -9,5 +9,5 @@ if __name__ == "__main__":
 
     print("{} + {} = {}".format(a, b, add(a, b)))
     print("{} - {} = {}".format(a, b, sub(a, b)))
-    print("{} * {} = {}".format(a, b, multiply(a, b)))
-    print("{} / {} = {}".format(a, b, divide(a, b)))
+    print("{} * {} = {}".format(a, b, multiplication(a, b)))
+    print("{} / {} = {}".format(a, b, division(a, b)))
