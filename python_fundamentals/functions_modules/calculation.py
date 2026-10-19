@@ -2,10 +2,12 @@
 
 from calculator_1 import sumar,restar,multiplicar,dividir
 
-a = 10
-b = 5
+if __name__ = "__main__":
 
-print("El resultado de a + b es = {}".format(sumar(a, b)))
-print("El resultado de a - b es = {}".format(restar(a, b)))
-print("El resultado de a * b es = {}".format(multiplicar(a, b)))
-print("El resultado de a / b es = {}".format(dividir(a, b)))
+    a = 10
+    b = 5
+
+    print("El resultado de a + b es = {}".format(sumar(a, b)))
+    print("El resultado de a - b es = {}".format(restar(a, b)))
+    print("El resultado de a * b es = {}".format(multiplicar(a, b)))
+    print("El resultado de a / b es = {}".format(dividir(a, b)))
