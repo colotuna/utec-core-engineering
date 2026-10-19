@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from calculator_1 import sumar,restar,multiplicar,dividir
+from calculator_1 import sumar, restar, multiplicar, dividir
 
 if __name__ == "__main__":
 
