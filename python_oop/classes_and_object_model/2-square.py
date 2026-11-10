@@ -7,10 +7,10 @@ class Square:
     """Representa un cuadrado."""
     def __init__(self, size):
         """Inicializa un nuevo cuadrado."""
-        if size < 0:
-            raise ValueError("size must be >= 0")
-        elif not isinstance(size, int):
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
         """Args:
             size (int): El tamaño del nuevo cuadrado.
         """
