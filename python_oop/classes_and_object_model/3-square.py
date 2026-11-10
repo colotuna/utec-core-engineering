@@ -23,4 +23,3 @@ class Square:
             int: El área del cuadrado.
         """
         return (self.__size ** 2)
-        
