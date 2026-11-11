@@ -31,7 +31,7 @@ class Square:
         """
         return (self.__size ** 2)
 
-    def my_print(self): 
+    def my_print(self):
         """Imprime el cuadrado con el caracter #.
 
         Si el tamaño es 0, imprime una línea en blanco.
