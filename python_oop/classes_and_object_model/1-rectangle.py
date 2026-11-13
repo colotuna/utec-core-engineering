@@ -27,7 +27,7 @@ class Rectangle:
             raise ValueError("width must be >= 0")
 
     @property
-    def height(self)
+    def height(self):
         """Obtiene la altura de un rectángulo"""
         return self.__height    
     
