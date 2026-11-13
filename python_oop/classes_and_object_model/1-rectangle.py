@@ -12,7 +12,7 @@ class Rectangle:
             width (int): El ancho del nuevo rectangulo.
         """
         self.width = width
-        self.heigth = heigth
+        self.height = height
 
     @property
     def width(self):
@@ -27,17 +27,17 @@ class Rectangle:
             raise ValueError("width must be >= 0")
 
     @property
-    def heigth(self)
+    def height(self)
         """Obtiene la altura de un rectángulo"""
-        return self.__heigth    
+        return self.__height    
     
     @heigth.setter
-    def heigth(self, value):
+    def height(self, value):
         if not isinstance(value, int):
             raise TypeError("heigth must be an integer")
         if value < 0:
             raise ValueError("heigth must be >= 0")
     
     """Instanciación opcional"""
-    
+
     rectangulo = Rectangle(2,3)
