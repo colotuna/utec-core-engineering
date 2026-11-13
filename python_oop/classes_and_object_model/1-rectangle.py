@@ -37,7 +37,3 @@ class Rectangle:
             raise TypeError("heigth must be an integer")
         if value < 0:
             raise ValueError("heigth must be >= 0")
-    
-    """Instanciación opcional"""
-
-    rectangulo = Rectangle(2,3)
